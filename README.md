@@ -1,19 +1,20 @@
 # Migrate users from mysql to aws cognito
 
+```
 project
-└─── config
-    | connection.js
-└─── data
-    | Users.sql
-    | users.js
-└─── services
-    | cognito-service.js
-    | mysql-service.js
-| README.md
-| env.js
-| index.js        
-| package.json
- 
+└───  config
+    |  connection.js
+└───  data
+    |  Users.sql
+    |  users.js
+└───  services
+    |  cognito-service.js
+    |  mysql-service.js
+|  README.md
+|  env.js
+|  index.js        
+|  package.json
+```
 
 # Steps to use
 - Update the database credentials in ```env.js```
