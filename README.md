@@ -1,5 +1,8 @@
 # Migrate users from mysql to aws cognito
 
+The project is created to show how we can migrate user from mysql to cognito server and login the user. 
+
+### Project Structure
 ```
 project
 └───  config
@@ -16,7 +19,7 @@ project
 |  package.json
 ```
 
-# Steps to use
+### Steps to use
 - Update the database credentials in ```env.js```
 - Run ```npm i``` command to install all the dependencies 
 - Run ``` npm strat ``` command to serve the project at 
